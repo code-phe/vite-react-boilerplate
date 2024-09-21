@@ -78,6 +78,8 @@ const typescriptConfig = {
     "@typescript-eslint/prefer-readonly": "error",
     "no-return-await": "off",
     "@typescript-eslint/return-await": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-misused-promises": [
     "error",
     {
